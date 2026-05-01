@@ -59,7 +59,7 @@ Start the background worker that will process the data.
 python batch_predict.py
 ```
 * The script will immediately process all available data.
-* It will then enter "standby mode" and automatically wake up every 1 minute to check the database for any new data.
+* It will then enter "standby mode" and automatically wake up every 5 minute to check the database for any new data.
 * Leave this terminal running.
 
 ### 4. Check the Status
