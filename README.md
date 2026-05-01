@@ -80,5 +80,5 @@ To see the scheduler in action:
 2. In Terminal 2, run `python check.py`. You should see `0` rows waiting.
 3. In Terminal 2, run `python seed_data.py` to add 200 more rows.
 4. Run `python check.py` immediately. You will see `200` rows waiting for prediction.
-5. Wait up to 1 minute. Look at Terminal 1 — the pipeline will automatically detect the new data and process it.
+5. Wait up to 5 minutes. Look at Terminal 1 — the pipeline will automatically detect the new data and process it.
 6. Run `python check.py` again. The waiting rows will drop back to `0`, and total predictions will increase.
